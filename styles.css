@@ -1,0 +1,37 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  font-size: 14px;
+  padding: 2em;
+  text-align: center;
+  background-image: url(https://c1.staticflickr.com/5/4141/4754591985_9c7db9d846_b.jpg);
+}
+
+.jumbotron {
+  min-height: 32em;
+  padding: 2em;
+}
+
+.btn {
+  background: #F42D37;
+  color: whitesmoke;
+}
+
+.btn:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.v-h-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+  color: white;
+}
