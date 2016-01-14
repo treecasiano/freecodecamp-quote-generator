@@ -52,8 +52,6 @@ $quoteBtn.click( function() {
   }
 });
 
-$tweetBtn.click( function() {
-  tweetThis();
-});
+$tweetBtn.click(tweetThis);
 
 })( jQuery );
