@@ -1,20 +1,26 @@
 body {
   font-family: 'Kanit', sans-serif;
-  font-size: 14px;
-  padding: 2em;
+  font-size: 12px;
+  padding-bottom: 10em;
   text-align: center;
   background-image: url(https://c1.staticflickr.com/5/4141/4754591985_9c7db9d846_b.jpg);
 }
 
+header {
+  padding: 1em;
+}
+
 .jumbotron {
-  min-height: 32em;
-  padding: 2em;
+  min-height: 20em;
+  max-width: 75%;
+  margin: auto;
+  padding: 1em;
 }
 
 .btn {
   background: #F42D37;
   color: whitesmoke;
-  margin: 5px;
+  margin: 1em;
 }
 
 .btn:hover {
@@ -35,4 +41,13 @@ h1 {
 
 a {
   color: white;
+}
+
+footer {
+  background: #F42D37;
+  padding: 2em;
+  position: fixed;
+  margin-top: 2em;
+  bottom: 0;
+  width: 100%;
 }
