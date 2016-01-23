@@ -1,26 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Kanit', sans-serif;
   font-size: 12px;
-  padding-bottom: 10em;
   text-align: center;
   background-image: url(https://c1.staticflickr.com/5/4141/4754591985_9c7db9d846_b.jpg);
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
 }
 
 header {
   padding: 1em;
 }
 
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+
 .jumbotron {
-  min-height: 20em;
-  max-width: 75%;
+  min-height: 18em;
+  max-width: 90%;
   margin: auto;
+  margin-bottom: 1em;
   padding: 1em;
 }
 
 .btn {
   background: #F42D37;
   color: whitesmoke;
-  margin: 1em;
+  margin: 0.25em;
 }
 
 .btn:hover {
@@ -45,9 +61,10 @@ a {
 
 footer {
   background: #F42D37;
-  padding: 2em;
-  position: fixed;
-  margin-top: 2em;
   bottom: 0;
+  height:100px;
+  left:0;
+  padding: 1em;
+  position: absolute;
   width: 100%;
 }
